@@ -1,0 +1,157 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* academy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e-20170308\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-05 23:17+0000\n"
+"PO-Revision-Date: 2017-05-05 23:17+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.teacher_submit
+msgid "<span class=\"btn btn-primary btn-lg o_website_form_send o_default_snippet_text\">Send</span>\n"
+"								<span id=\"o_website_form_result\"/>"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.menu_academy
+#: model:ir.ui.view,arch_db:academy.biography
+#: model:ir.ui.view,arch_db:academy.index
+msgid "Academy"
+msgstr ""
+
+
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.menu_academy_content
+msgid "Academy Content"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_academy_courses
+#: model:ir.ui.menu,name:academy.menu_academy_content_courses
+msgid "Academy courses"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_academy_teachers
+#: model:ir.ui.menu,name:academy.menu_academy_content_teachers
+msgid "Academy teachers"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_bio
+msgid "Bio"
+msgstr ""
+
+#. module: academy
+#: model:product.template,name:academy.course0
+msgid "Course 0"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_course_ids
+#: model:ir.ui.view,arch_db:academy.academy_course_list
+#: model:ir.ui.view,arch_db:academy.academy_teacher_form
+msgid "Courses"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_id
+msgid "ID"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.biography
+msgid "Last modified:"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_description
+msgid "Name"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_name
+#: model:ir.ui.view,arch_db:academy.index
+msgid "Name"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.teacher_submit
+msgid "Nom"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.index
+msgid "Send"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_product_template_teacher_id
+msgid "Teacher"
+msgstr ""
+
+#. module: academy
+#: model:website.menu,name:academy.teacher_submit_page_link
+msgid "Teacher Form"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.teacher_submited
+msgid "Thank you"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_academy_teachers
+msgid "academy.teachers"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_teachers_biography
+msgid "biography"
+msgstr ""
+

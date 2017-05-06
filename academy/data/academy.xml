@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="academy.model_academy_teachers" model="ir.model">
+		<field name="website_form_default_field_id" ref="academy.field_academy_teachers_name" />
+		<field name="website_form_access">True</field>
+		<field name="website_form_label">Create a teacher</field>
+	</record>
+</odoo>
