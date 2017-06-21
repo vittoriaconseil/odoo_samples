@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+	<t t-name="HomePageTemplate">
+        <div t-att-id="homepage" style="background-color: red;">This is some simple HTML</div>
+        <div>Hello <t t-esc="widget.name" /></div>
+        <t t-call="GreetingsTemplate" />
+    </t>
+    <t t-name="GreetingsTemplate">
+    	<textarea>Next, get a free TinyMCE Cloud API key!</textarea>
+        <div style="background-color: green;">Welcome in the GreetingsTemplate</div>
+    </t>
+    
+    <t t-name="ProductsTemplate">
+    	<div>
+	    	<h1>Exercises: Usage of QWeb in Widgets</h1>
+	    	<ul t-attf-style="background: {{widget.color}};">
+		    	<t t-foreach="widget.products" t-as="product">
+		    		<li><button t-attf-class="prodButton"><t t-esc="product" /></button></li>
+		    	</t>
+	    	</ul>
+    	</div>
+    </t>
+    
+    <t t-name="oepetstore.tinymce">
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-header">
+		        <h3 id="myModalLabel">Modal header</h3>
+		    </div>
+		    <div class="modal-body">
+		        <textarea name="content"></textarea>
+		    </div>
+		
+		    <div class="modal-footer">
+		        <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
+		    </div>
+		</div>
+    </t>
+    
+</templates>
